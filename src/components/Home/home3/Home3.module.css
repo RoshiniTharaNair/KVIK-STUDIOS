@@ -1,0 +1,95 @@
+/* Home3.module.css */
+
+/* Default styles for h1 and h4 */
+.carouselH1 {
+  font-size: 29.12px; /* Adjusted font size for h1 */
+  max-width: 72%;
+}
+.carouselH4 {
+  font-size: 13px; /* Adjusted font size for h4 */
+  max-width: 20%;
+}
+.leftImg {
+  margin-right: 40px; /* Default margin right */
+}
+.rightImg {
+  margin-left: 40px; /* Default margin left */
+}
+.testimonial{
+  font-size: 42px; /* Adjusted font size for h4 */
+
+}
+
+/* Media query for screen widths less than 768px */
+@media (max-width: 768px) {
+  .carouselH1 {
+    font-size: 22px;
+    max-width: 80%;
+  }
+  .carouselH4 {
+    font-size: 15px;
+    max-width: 30%;
+  }
+}
+
+/* Media query for screen widths less than 600px */
+@media (max-width: 600px) {
+  .carouselH1 {
+    font-size: 20px;
+    max-width: 90%;
+  }
+  .carouselH4 {
+    font-size: 13.5px;
+    max-width: 40%;
+  }
+  .testimonial{
+    font-size: 35px; /* Adjusted font size for h4 */
+  
+  }
+}
+
+/* Media query for screen widths less than 500px */
+@media (max-width: 500px) {
+  .carouselH1 {
+    font-size: 16px;
+    max-width: 90%;
+  }
+  .carouselH4 {
+    font-size: 12px;
+    max-width: 40%;
+  }
+  .leftImg {
+    margin-right: 10px; /* Default margin right */
+  }
+  .rightImg {
+    margin-left: 10px; /* Default margin left */
+  }
+  .testimonial{
+    font-size: 28px; /* Adjusted font size for h4 */
+  
+  }
+}
+
+/* Media query for screen widths less than 400px */
+@media (max-width: 400px) {
+  .carouselH1 {
+    font-size: 15px;
+  }
+  .carouselH4 {
+    font-size: 11px;
+  }
+  .leftImg {
+    margin-right: 10px; /* Default margin right */
+  }
+  .rightImg {
+    margin-left: 10px; /* Default margin left */
+  }
+}
+@media (max-width: 300px) {
+  .carouselH1 {
+    font-size: 13px;
+  }
+  .carouselH4 {
+    font-size: 9px;
+  }
+}

@@ -1,0 +1,26 @@
+.navItem {
+    color: #c9a25b; /* Normal state color */
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.2rem; /* Adjust size as needed */
+    transition: color 0.3s ease, background 0.3s ease; /* Add background transition for gradient */
+  }
+  
+  .navItem:hover {
+    color: transparent; /* Make text color transparent to show the gradient */
+    background-image: linear-gradient(
+      to right,
+      #cb9b51 0%,
+      #cb9b51 22%,
+      #f6e27a 45%,
+      #f6f2c0 50%,
+      #f6e27a 55%,
+      #cb9b51 78%,
+      #cb9b51 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: inline; /* Ensure the background-clip text effect is applied */
+    font-weight: bolder;
+    font-size: 1.2rem; /* Adjust size as needed */
+  }

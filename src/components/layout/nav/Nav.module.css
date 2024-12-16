@@ -1,0 +1,98 @@
+.navText {
+    background-image: linear-gradient(
+      to right,
+      #cb9b51 0%,
+      #cb9b51 22%,
+      #f6e27a 45%,
+      #f6f2c0 50%,
+      #f6e27a 55%,
+      #cb9b51 78%,
+      #cb9b51 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Fallback for browsers that don't support text gradients */
+    display: inline; /* This is needed for the background-clip to work */
+    font-weight: 700;
+
+  }
+  .navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 5%; /* Adjust padding to match the design */
+    background-color: #081525; /* Dark background color */
+    /* color: white; */
+    height: 80px; /* Adjust height as needed */
+  }
+  
+  .navLogo {
+    flex-grow: 1; /* Give the logo some ability to grow if needed */
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between logo and title */
+  }
+  
+  .navLineSubtitle {
+    font-size: 1.5rem; /* Adjust size as needed */
+    margin-left: 4px; /* Space after the vertical line */
+    font-weight: 700;
+  }
+  .navSubtitle {
+    font-weight: 900;
+
+    font-size: 0.9rem; /* Adjust size as needed */
+    margin-left: 4px; /* Space after the vertical line */
+  }
+  
+  .navLinks {
+    width: 80%; /* Adjust according to your layout needs */
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Space between nav items */
+}
+
+.navItem {
+  color: #c9a25b; /* Normal state color */
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.9rem; /* Adjust size as needed */
+  transition: color 0.3s ease, background 0.3s ease; /* Add background transition for gradient */
+}
+
+/* .navItem:hover {
+  color: transparent; 
+  background-image: linear-gradient(
+    to right,
+    #cb9b51 0%,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #cb9b51 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline; 
+  font-weight: bolder;
+  font-size: 0.9rem; 
+} */
+  
+  .navButton {
+    background-color: #c9a25b; /* Button background color */
+    color: white;
+    padding: 7px 12px; /* Adjust padding to match the design */
+    border-radius: 0px; /* Rounded corners */
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* .navButton:hover {
+    background-color: #e48f6a;
+  }
+   */

@@ -1,0 +1,299 @@
+/* CSS for screen width 280px to 540px */
+@media (max-width: 766px) {
+        
+    .goalMain{
+        justify-content: center;
+         align-items: center;
+          text-align: center;
+          background: #23384d;
+          padding-bottom: 5% !important;
+    }    
+    .goalh1{
+      font-size: 26px !important;
+      font-weight: 600 !important;
+      padding-top: 4%;
+      color: #FEBF70;
+
+
+    }
+    .goalh2{
+      font-size: 17px !important;
+      letter-spacing: 1.5px !important;
+       line-height: 1.2em !important;
+      max-width: 90% !important;
+      padding-top: 4%;
+      color: #FEBF70;
+
+
+    }
+    .goalh2container{
+      max-width: 100% !important;
+      /* // background: red; */
+      padding-top: 4%;
+
+    }
+    .goalavatar{
+      padding: 15% 15% !important;
+      font-size: 26px !important;
+    }
+    .goalcol,.goalcol3,.goalcol5 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 4%;
+      /* background: red; */
+      /* other styles... */
+    }
+    .goalrow {
+      flex-direction: column;
+      align-items: center;
+      /* // align-items: center !important; */
+      justify-content: center !important;
+      text-align: center !important;
+      max-width: 100% !important;
+    }
+    .goalavatarcontainer{
+      align-items: center !important;
+      justify-content: center !important;
+      text-align: center !important;
+      max-width: 100% !important;
+    }
+    .goalp{
+      text-align: center !important;
+      font-size: 17px !important;
+      color: #FEBF70;
+
+
+    }
+    .goalpr{
+        text-align: center !important;
+        font-size: 17px !important;
+        padding-top: 4%;
+        text-decoration: underline;
+        color: #FEBF70;
+
+      }
+    .goalavatar1,
+.goalavatar2,
+.goalavatar3,
+.goalavatar4,
+.goalavatar5 {
+  background: linear-gradient(
+    to right,
+    #cb9b51 0%,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #cb9b51 100%
+  );
+  font-family: "Futura LT W01 Medium", sans-serif;
+  font-size: 180% !important;
+  color: black;
+}
+   
+       }
+  @media (min-width: 767px) {
+
+    .goalMain{
+        background: #23384d;
+        max-width: 100%;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        /* margin-top: 3% !important; */
+        padding-top: 3% !important;
+        padding-bottom: 5% !important;
+        border-top: 3px solid black;
+    }
+    
+    .goalh1{
+      /* font-size: 50px !important; */
+      /* background: red; */
+      font-family: "Futura LT W01 Medium", sans-serif;
+       font-size: 210% !important;
+      font-weight: 600 !important; 
+      color: #FEBF70;
+    }
+    .goalh2{
+      font-size: 14.4px !important;
+      letter-spacing: 0.1px !important;
+       line-height: 1.4em !important;
+      max-width: 45% !important;
+      font-family: "Avenir Next LT W02 Regular", sans-serif;
+      justify-content: center !important;
+      align-items: center !important;
+      text-align: center !important;
+      color: #FEBF70;
+
+    }
+    .goalh2container{
+      max-width: 100% !important;
+      display: flex;
+      justify-content: center !important;
+      align-items: center !important;
+      text-align: center !important;
+      padding-top: 2%;
+    }
+    
+    .goalcol {
+        margin-right: 0%; /* Larger gap for wider screens */
+    margin-left: 0%; /* Larger gap for wider screens */
+
+        /* margin-right: -2% !important; */
+        padding: 3% !important;
+        /* justify-content: center; */
+        text-align: center;
+        line-height: 1.2em !important;
+      display: flex;
+      flex-direction: column;
+      /* background: gray; */
+      /* align-items: center; */
+    }
+    .goalcol3 {
+        margin-top: 0.8% !important;
+        margin-right: -5% !important;
+        padding: 3% !important;
+        /* justify-content: center; */
+        text-align: center;
+        line-height: 1.2em !important;
+      display: flex;
+      flex-direction: column;
+      /* align-items: center; */
+    }
+    .goalcol5 {
+        padding: 3% !important;
+        /* justify-content: center; */
+        text-align: center;
+        line-height: 1.2em !important;
+      display: flex;
+      flex-direction: column;
+      /* align-items: center; */
+    }
+    .goalrow {
+        letter-spacing: 1px !important;
+        display: flex;
+      /* flex-direction: column; */
+      align-items: center;
+      /* // align-items: center !important; */
+      justify-content: center !important;
+      text-align: center !important;
+      width: 90% !important;
+      /* background: red; */
+    }
+    .goalavatarcontainer{
+        display: flex;
+      align-items: center !important;
+      justify-content: center !important;
+      text-align: center !important;
+      max-width: 100% !important;
+      margin-top: 1%;
+      /* background: green; */
+    }
+    .goalp{
+        font-family: "Avenir Next LT W02 Regular", sans-serif;
+        /* font-size: 72% !important; */
+        font-weight: 400 !important;
+        margin: 10px 0 !important;
+        line-height: 1 !important;
+        letter-spacing: -0.2px !important;
+         text-align: center !important;
+      font-size: 12px !important;
+      color: #FEBF70;
+
+    }
+    .goalp3{
+        font-family: "Avenir Next LT W02 Regular", sans-serif;
+        /* font-size: 72% !important; */
+        font-weight: 400 !important;
+        margin: 10px 0 !important;
+        line-height: 1 !important;
+        letter-spacing: -0.2px !important;
+         text-align: center !important;
+      font-size: 12px !important;
+      width: 80% !important;
+      margin-left: -8% !important;
+      color: #FEBF70;
+
+    }
+    .goalpr{
+      text-align: center !important;
+      font-size: 14.4px !important;
+      font-family: "Avenir Next LT W02 Regular", sans-serif;
+      text-decoration: underline;
+      color: #FEBF70;
+
+    }
+
+    .goalavatar1,
+.goalavatar2,
+.goalavatar3,
+.goalavatar4,
+.goalavatar5 {
+  background: linear-gradient(
+    to right,
+    #cb9b51 0%,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #cb9b51 100%
+  );
+  font-family: "Futura LT W01 Medium", sans-serif;
+  font-size: 180% !important;
+  color: black;
+}
+    .goalavatar1{
+        /* padding: 13% 13% !important; */
+        /* font-size: 54px !important; */
+        /* background: #CCC6C6 !important; */
+        font-family: "Futura LT W01 Medium", sans-serif;
+        font-size: 180% !important;
+        color: black;
+        padding: 46% 42% 46% 50% !important;
+      }
+      .goalavatar2{
+        /* padding: 13% 13% !important; */
+        /* font-size: 54px !important; */
+        /* background: #FADCD6; */
+        font-family: "Futura LT W01 Medium", sans-serif;
+        font-size: 180% !important;
+        color: black;
+        padding: 64% 58% 64% 68% !important;
+      }
+      .goalavatar3{
+        /* padding: 13% 13% !important; */
+        /* font-size: 54px !important; */
+        /* background: #E5C7B5 !important; */
+        font-family: "Futura LT W01 Medium", sans-serif;
+        font-size: 180% !important;
+        color: black;
+        padding: 26% 26% 26% 26% !important;
+      }
+      .goalavatar4{
+        padding: 13% 13% !important;
+        /* font-size: 54px !important; */
+        /* background: #9fbac2; */
+        font-family: "Futura LT W01 Medium", sans-serif;
+        font-size: 180% !important;
+        color: black;
+        padding: 57% 53% 57% 61% !important;
+
+      }
+      .goalavatar5{
+        padding: 13% 13% !important;
+        /* font-size: 54px !important; */
+        /* background: #e9f4f7 !important; */
+        font-family: "Futura LT W01 Medium", sans-serif;
+        font-size: 180% !important;
+        color: black;
+        padding: 64% 60% 64% 68% !important;
+      }
+    
+        }
+  @media (min-width: 1024px) {
+    
+ 
+        }

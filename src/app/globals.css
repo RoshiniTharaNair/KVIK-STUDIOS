@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  
+  @font-face {
+    font-family: "Avenir Next LT W02 Regular";
+    src: url("https://db.onlinewebfonts.com/t/be9a43357e0fe07642191e4b32995385.eot");
+    src: url("https://db.onlinewebfonts.com/t/be9a43357e0fe07642191e4b32995385.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/Avenir Next LT W02 Regular.woff2")format("woff2"),
+    url("/fonts/Avenir Next LT W02 Regular.woff")format("woff"),
+    url("/fonts/Avenir Next LT W02 Regular.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/be9a43357e0fe07642191e4b32995385.svg#Avenir Next LT W02 Regular")format("svg");
+    font-display: swap; /* This ensures text remains visible during webfont load */
+}
+
+@font-face {
+  font-family: "Warnock Pro Display";
+  src: url("https://db.onlinewebfonts.com/t/a8c1f086a54b845a6f128a35818e0b02.eot");
+  src: url("https://db.onlinewebfonts.com/t/a8c1f086a54b845a6f128a35818e0b02.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/WarnockPro-Disp.woff2")format("woff2"),
+    url("/fonts/WarnockPro-Disp.woff")format("woff"),
+    url("/fonts/WarnockPro-Disp.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/a8c1f086a54b845a6f128a35818e0b02.svg#Warnock Pro Display")format("svg");
+    font-display: swap; /* This ensures text remains visible during webfont load */
+}
+@font-face {
+  font-family: "Avenir LT Pro 35 Light";
+  src: url("https://db.onlinewebfonts.com/t/e5f78b4fb90a80a32be156470cbfead1.eot");
+  src: url("https://db.onlinewebfonts.com/t/e5f78b4fb90a80a32be156470cbfead1.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/Avenir LT Pro 35 Light.woff2")format("woff2"),
+    url("/fonts/Avenir LT Pro 35 Light.woff")format("woff"),
+    url("/fonts/Avenir LT Pro 35 Light.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/e5f78b4fb90a80a32be156470cbfead1.svg#Avenir LT Pro 35 Light")format("svg");
+    font-display: swap; /* This ensures text remains visible during webfont load */
+}
+  
+@font-face {
+  font-family: "AvenirNextCyr-Regular";
+  src: url("https://db.onlinewebfonts.com/t/11d164da9b46e6f7955e396757e5ca70.eot");
+  src: url("https://db.onlinewebfonts.com/t/11d164da9b46e6f7955e396757e5ca70.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/AvenirNextCyr-Regular.woff2")format("woff2"),
+    url("/fonts/AvenirNextCyr-Regular.woff")format("woff"),
+    url("/fonts/AvenirNextCyr-Regular.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/11d164da9b46e6f7955e396757e5ca70.svg#AvenirNextCyr-Regular")format("svg");
+    font-display: swap; /* This ensures text remains visible during webfont load */
+}
+@font-face {
+  font-family: "Futura LT W01 Medium";
+  src: url("https://db.onlinewebfonts.com/t/77d394fa0c1103c648f880b77cb4a32f.eot");
+  src: url("https://db.onlinewebfonts.com/t/77d394fa0c1103c648f880b77cb4a32f.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/Futura LT W01 Medium.woff2")format("woff2"),
+    url("/fonts/Futura LT W01 Medium.woff")format("woff"),
+    url("/fonts/Futura LT W01 Medium.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/77d394fa0c1103c648f880b77cb4a32f.svg#Futura LT W01 Medium")format("svg");
+    font-display: swap; /* This ensures text remains visible during webfont load */
+}
+}
+
+
+

@@ -1,0 +1,305 @@
+.textGradient {
+    background-image: linear-gradient(
+      to right,
+      #cb9b51 0%,
+      #cb9b51 22%,
+      #f6e27a 45%,
+      #f6f2c0 50%,
+      #f6e27a 55%,
+      #cb9b51 78%,
+      #cb9b51 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Fallback for browsers that don't support text gradients */
+    font-weight: 700;
+  }
+  
+  /* Existing styles for .hero, .title, .subtitle, and .paragraph remain unchanged */
+  
+
+  .hero {
+    height: 86vh;
+    width: 100%;
+    background-image: url('/rob111.jpg'); /* Ensure the image path is correct */
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    padding-left: 17%; /* Add some padding from the left */
+    letter-spacing: 0.3em;
+    /* margin-top: 6%; */
+
+    background-color: #23384d;
+}
+  
+  .title {
+    font-size: 2.1rem; /* Adjust the size as needed */
+    margin-top: -7%;
+    padding: 0;
+    text-align: center;
+    font-family: "EB Garamond", serif;
+  }
+  
+  .subtitle {
+    font-size: 2.1rem; /* Adjust the size as needed */
+    padding: 0;
+    text-align: center;
+    font-family: "EB Garamond", serif;
+  }
+  .paragraph {
+    padding: 2%;
+        font-size: 0.9rem; /* Adjust the size as needed */
+      }
+    
+    /* Base padding for mobile and smaller devices */
+.hero {
+  padding-left: 12%; /* Default padding for the smallest view */
+}
+
+/* Media queries for larger screens */
+@media (max-width: 800px) {
+  .hero {
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+      padding-right:0%; /* Slightly increase padding as the screen gets larger */
+  }
+}
+
+@media (min-width: 801px) {
+  .hero {
+      padding-left: 0.5%;
+  }
+}
+
+@media (min-width: 901px) {
+  .hero {
+      padding-left: 6.2%;
+  }
+}
+
+@media (min-width: 1001px) {
+  .hero {
+      padding-left: 7%;
+
+  }
+}
+
+@media (min-width: 1101px) {
+  .hero {
+      padding-left: 13.5%;
+  }
+}
+
+@media (min-width: 1201px) {
+  .hero {
+      padding-left: 17%;
+  }
+}
+@media (min-width: 1301px) {
+  .hero {
+      padding-left: 18.5%;
+  }
+}
+@media (min-width: 1401px) {
+  .hero {
+      padding-left: 20%;
+  }
+}
+
+@media (min-width: 1501px) {
+  .hero {
+      padding-left: 22%; /* Note: There is an inconsistency in the original request where 1500px appears twice with different values */
+  }
+}
+
+@media (min-width: 1601px) {
+  .hero {
+      padding-left: 24%; /* Largest padding for very large screens */
+  }
+}
+
+
+/* Set height according to screen height */
+@media (max-height: 599px) {
+  .hero {
+      height: 99vh;
+  }
+}
+@media (min-height: 600px) {
+  .hero {
+      height: 86vh;
+  }
+}
+@media (min-height: 700px) {
+  .hero {
+      height: 88vh;
+  }
+}
+@media (min-height: 800px) {
+  .hero {
+      height: 89vh;
+  }
+}
+
+@media (min-height: 900px) {
+  .hero {
+      height: 91vh;
+  }
+}
+
+@media (min-height: 1000px) {
+  .hero {
+      height: 92vh;
+  }
+}
+
+@media (min-height: 1100px) {
+  .hero {
+      height: 92vh;
+  }
+}
+
+@media (min-height: 1200px) {
+  .hero {
+      height: 93vh;
+  }
+}
+@media (min-height: 1300px) {
+  .hero {
+      height: 94vh;
+  }
+}
+@media (min-height: 1400px) {
+  .hero {
+      height: 94vh;
+  }
+}
+
+@media (min-height: 1500px) {
+  .hero {
+      height: 95vh; /* Note: There is an inconsistency in the original request where 1500px appears twice with different values */
+  }
+}
+
+@media (min-height: 1600px) {
+  .hero {
+      height: 95vh; /* Largest padding for very large screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+      text-align: center;
+      height: 100vh;
+      padding-left: 5%;
+      /* margin-top: 10%; */
+
+      /* background: red; */
+  }
+  .title, .subtitle, .paragraph {
+    /* margin-top: 0%; */
+      font-size: 1.5rem; /* Smaller font size for mobile */
+  }
+  .paragraph {
+      font-size: 1rem; /* Adjust paragraph size separately if needed */
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+      text-align: center;
+      height: 100vh;
+      padding-left: 3%;
+      /* margin-top: 12%; */
+
+      /* background: red; */
+  }
+  .title, .subtitle, .paragraph {
+    /* margin-top: 0%; */
+      font-size: 1.1rem; /* Smaller font size for mobile */
+  }
+  .paragraph {
+      font-size: 0.7rem; /* Adjust paragraph size separately if needed */
+  }
+}
+
+@media (max-width: 500px) {
+  .hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url('/rob113.jpg'); /* Ensure the image path is correct */
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+      text-align: center;
+      /* height: 21vh; */
+      justify-content: center;
+      align-items: center;
+      padding-left: 1%;
+      /* padding-top: 15%; */
+      /* background: red; */
+  }
+  .title, .subtitle, .paragraph {
+    padding-top: 2%;
+      font-size: 1.3rem; /* Smaller font size for mobile */
+  }
+  .paragraph {
+      font-size: 0.9rem; /* Adjust paragraph size separately if needed */
+  }
+}
+@media (max-width: 430px) {
+  .hero {
+      
+      /* margin-top: 13%; */
+
+      /* background: red; */
+  }
+}
+@media (max-width: 400px) {
+  .hero {
+      text-align: center;
+      height: 100vh;
+      padding-left: 1%;
+      /* background: red; */
+  }
+  .title, .subtitle, .paragraph {
+    /* margin-top: 0%; */
+      font-size: 1.2rem; /* Smaller font size for mobile */
+  }
+  .paragraph {
+      font-size: 0.8rem; /* Adjust paragraph size separately if needed */
+  }
+}
+@media (max-width: 376px) {
+  .hero {
+      text-align: center;
+      height: 100vh;
+      padding-left: 1%;
+      /* margin-top: 17%; */
+
+      /* background: red; */
+  }
+}
+@media (max-width: 300px) {
+  .hero {
+      text-align: center;
+      height: 100vh;
+      padding-left: 1%;
+      /* margin-top: 24%; */
+
+      /* background: red; */
+  }
+  .title, .subtitle, .paragraph {
+    /* margin-top: 0%; */
+      font-size: 1rem; /* Smaller font size for mobile */
+  }
+  .paragraph {
+      font-size: 0.6rem; /* Adjust paragraph size separately if needed */
+  }
+}
